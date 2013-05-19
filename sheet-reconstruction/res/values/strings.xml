@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SheetReconstruction</string>
+    <string name="title_activity_sheet_reconstruction">Sheet Reconstruction</string>
+    <string name="load_image">Load Image</string>
+    <string name="no_image">No image loaded.</string>
+
+</resources>

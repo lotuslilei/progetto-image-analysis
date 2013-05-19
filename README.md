@@ -1,2 +1,0 @@
-progetto-image-analysis
-=======================

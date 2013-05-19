@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SheetReconstructionActivity" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_alignParentTop="true"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/noimage"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/log_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:text="@string/no_image" />
+
+    <Button
+        android:id="@+id/load_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginRight="6dp"
+        android:text="@+string/load_image" />
+
+</RelativeLayout>
